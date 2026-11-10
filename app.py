@@ -94,7 +94,7 @@ with col1:
                     # Generate Answer using RAG Chain (Kavya's code)
                     #rag_chain = get_rag_chain(st.session_state.vectorstore)
                     #response = rag_chain.invoke({"input": user_query})
-                    answer = response["answer"]
+                    #answer = response["answer"]
                     
                     # Save metrics for dashboard
                     st.session_state.last_time = round(time.time() - start_time, 2)
