@@ -98,10 +98,10 @@ with col1:
                     
                     # Save metrics for dashboard
                     st.session_state.last_time = round(time.time() - start_time, 2)
-                    st.session_state.last_answer = answer
+                    #st.session_state.last_answer = answer
                     
-                    st.markdown(answer)
-                    st.session_state.chat_history.append({"role": "assistant", "content": answer})
+                    #st.markdown(answer)
+                   #st.session_state.chat_history.append({"role": "assistant", "content": answer})
 
 with col2:
     # Right Panel Dashboard (Metrics UI)
