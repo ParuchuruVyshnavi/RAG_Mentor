@@ -3,7 +3,7 @@ import os
 import time
 from data_ingestion import extract_and_chunk
 from vector_engine import create_vector_db
-from llm_generator import get_rag_chain
+#from llm_generator import get_rag_chain
 
 # --- Page Configuration ---
 st.set_page_config(page_title="RAGMentor", layout="wide", page_icon="📘")
