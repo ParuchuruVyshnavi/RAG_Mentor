@@ -33,7 +33,6 @@ with st.sidebar:
         
     st.divider()
     st.markdown("### Navigation")
-    st.page_link("app.py", label="Home", icon="🏠")
     st.caption("📂 My Documents")
     st.caption("💬 Chat History")
     st.caption("📄 Document Summary")
