@@ -92,7 +92,7 @@ with col1:
                     start_time = time.time()
                     
                     # Generate Answer using RAG Chain (Kavya's code)
-                    rag_chain = get_rag_chain(st.session_state.vectorstore)
+                    #rag_chain = get_rag_chain(st.session_state.vectorstore)
                     response = rag_chain.invoke({"input": user_query})
                     answer = response["answer"]
                     
